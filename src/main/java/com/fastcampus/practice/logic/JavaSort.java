@@ -3,7 +3,10 @@ package com.fastcampus.practice.logic;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 
+@Component
 public class JavaSort<T extends Comparable<T>> implements Sort<T> {
 
     public List<T> sort(final List<T> list) {
