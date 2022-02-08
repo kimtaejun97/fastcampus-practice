@@ -3,8 +3,9 @@ package logic;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BubbleSort<T extends Comparable<T>> {
+public class BubbleSort<T extends Comparable<T>> implements Sort<T> {
 
+    @Override
     public List<T> sort(final List<T> list) {
         final List<T> sorted = new ArrayList<>(list);
 
@@ -19,4 +20,5 @@ public class BubbleSort<T extends Comparable<T>> {
         }
         return sorted;
     }
+
 }
