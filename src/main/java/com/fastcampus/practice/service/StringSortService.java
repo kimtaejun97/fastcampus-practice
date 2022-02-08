@@ -1,5 +1,6 @@
-package service;
+package com.fastcampus.practice.service;
 
+import com.fastcampus.practice.logic.Sort;
 import java.util.List;
 import logic.Sort;
 

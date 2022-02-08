@@ -1,4 +1,4 @@
-package logic;
+package com.fastcampus.practice.logic;
 
 import java.util.ArrayList;
 import java.util.Collections;
